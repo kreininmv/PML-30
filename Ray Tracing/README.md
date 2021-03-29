@@ -1,2 +1,2 @@
 # Ray tracing
-I create ray tracing module for shapes like: sphere, plane, quad and tor.
+Ray tracing module for shapes like: sphere, plane, quad and tor.
