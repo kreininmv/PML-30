@@ -1,4 +1,4 @@
-# It's Animation Rendering System.
+# Animation Rendering System.
 In that project I realized technologies like:
 1. OpenGL.
 2. Classes: animation, window, math library (vectors, matrixes, camera), stock system.
