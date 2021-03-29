@@ -29,14 +29,9 @@
  */
 INT WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, CHAR *CmdLine, INT ShowCmd )
 {
-  mk5::anim & Klass = mk5::anim::Get(); 
-  mciSendString("open \"BIN\\SOUND\\muzlo2000.mp3\" type mpegvideo alias mp3", NULL, 0, NULL);
-  mciSendString("play mp3 from 0", NULL, 0, NULL);
-
-  //Klass.Units.Add(new mk5::unit_test);
-  Klass.Units.Add(new mk5::unit_control);
-  //Klass.Units.Add(new mk5::unit_zorka);
-  Klass.Units.Add(new mk5::unit_mandelbrot);
+  mk5::anim & ani_sys = mk5::anim::Get(); 
+    
+  ani_sys.Units.Add(new mk5::your_class_unit);
 
   Klass.Run();
   return 0x1E;
