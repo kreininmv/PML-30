@@ -33,7 +33,7 @@ INT WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, CHAR *CmdLine,
     
   ani_sys.Units.Add(new mk5::your_class_unit);
 
-  Klass.Run();
+  ani_sys.Run();
   return 0x1E;
 } /* End of 'WinMain' function*/
 
