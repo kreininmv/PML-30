@@ -1,4 +1,4 @@
-# My mathematical and supported classes that I use in my projects.
+# Math and support classes that I use in my projects.
 These are universal classes on templates that you can use in your projects.
 ### MATR
 Matrix class on templates with all functions and operators that you learn from course of linear algebra.
